@@ -1,0 +1,49 @@
+body.theme {
+    background: #f9f9f9;
+    color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background 0.3s, color 0.3s;
+}
+
+body.theme.dark {
+    background: #111;
+    color: #f9f9f9;
+}
+
+header, footer, .card {
+    transition: background 0.3s, color 0.3s;
+}
+
+header {
+    background: #fff;
+}
+
+body.theme.dark header, body.theme.dark footer, body.theme.dark .card {
+    background: #222;
+    color: #fff;
+}
+
+
+input[type="number"] {
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0.2rem;
+    margin: 0 2px;
+}
+
+body.theme.dark input[type="number"] {
+    background: #333;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+button {
+    margin: 0 2px;
+}
+
+.card{
+    height: 70vh;
+    justify-content: center;
+}
